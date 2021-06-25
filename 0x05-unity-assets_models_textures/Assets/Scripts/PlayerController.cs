@@ -63,9 +63,6 @@ public class PlayerController : MonoBehaviour
         }
 
         playerController.Move(velocity * Time.deltaTime);
-
-
-
     }
 
     void resetPosition()
