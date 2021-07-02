@@ -11,7 +11,7 @@ public class OptionsMenu : MonoBehaviour
 
     private void Start()
     {
-        localInverted = CameraController.isInverted;
+        localInverted = CameraController.isInvertedGlobal;
         isInvertesToggle.isOn = localInverted;
 
     }
@@ -22,7 +22,7 @@ public class OptionsMenu : MonoBehaviour
 
     public void Apply()
     {
-        CameraController.isInverted = !localInverted;
+        CameraController.isInvertedGlobal = !localInverted;
         SceneManager.LoadScene(PauseMenu.lastScene);
     }
 }

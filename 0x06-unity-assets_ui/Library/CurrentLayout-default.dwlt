@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 4}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 521}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 0
     width: 425
     height: 726
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -71,10 +71,10 @@ MonoBehaviour:
     y: 0
     width: 1383
     height: 726
-  m_MinSize: {x: 478, y: 221}
-  m_MaxSize: {x: 8003, y: 4021}
+  m_MinSize: {x: 476, y: 221}
+  m_MaxSize: {x: 8001, y: 4021}
   vertical: 0
-  controlID: 64
+  controlID: 18
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -97,7 +97,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 521}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &5
 MonoBehaviour:
@@ -163,8 +163,8 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 709, y: 471}
-  m_MaxSize: {x: 18004, y: 14021}
+  m_MinSize: {x: 707, y: 471}
+  m_MaxSize: {x: 18002, y: 14021}
   vertical: 0
   controlID: 16
 --- !u!114 &8
@@ -188,10 +188,10 @@ MonoBehaviour:
     y: 0
     width: 1383
     height: 947
-  m_MinSize: {x: 478, y: 321}
-  m_MaxSize: {x: 8003, y: 8021}
+  m_MinSize: {x: 476, y: 321}
+  m_MaxSize: {x: 8001, y: 8021}
   vertical: 1
-  controlID: 63
+  controlID: 17
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -270,7 +270,7 @@ MonoBehaviour:
   m_MinSize: {x: 231, y: 471}
   m_MaxSize: {x: 10001, y: 14021}
   vertical: 1
-  controlID: 17
+  controlID: 125
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -501,11 +501,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.32753503, y: 0.49148828, z: -0.20634922, w: -0.78012156}
     speed: 2
-    m_Value: {x: -0.32254148, y: 0.49388772, z: -0.20387962, w: -0.78132904}
+    m_Value: {x: -0.32753348, y: 0.49148592, z: -0.20634824, w: -0.78011787}
   m_Size:
-    m_Target: 43.937878
+    m_Target: 59.793373
     speed: 2
-    m_Value: 42.045815
+    m_Value: 59.793373
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -649,9 +649,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 382d0000
       m_LastClickedID: 0
-      m_ExpandedIDs: d638ffff28acffff5ec2ffff6ac2ffffd4c3ffff1cc4ffffcac4ffffd4c4ffffeec4ffff12c5ffff70c6ffffcac6ffffeec6ffff14c7ffff24c7ffff74c7ffff90c7ffffa4c7ffff44c8ffff72c8ffffd8c8fffff6c8ffff20c9ffff84c9ffffdac9fffff6c9fffffec9ffff12caffff8ccaffff96caffff28cbffffd4cbffffe0cbffffceccffff34cdffff3ecdffff5ccdffff78cdffff94cdffff1cceffff6eceffff76ceffffd4ceffffdeceffff30cfffffaacfffffc8cfffff32d0ffff3cd0ffff82d0ffffbad0ffff2cd1ffffc0d1fffff6d1ffff42d2ffff80d2ffffbed2ffffc8d2ffff54d3ffff90d3ffff8cd4ffff6ad5ffff96d5ffffa0d5ffffcad5ffff14d7ffff9ed7ffffacd8ffffc8d8ffff94d9ffff0adbffff9edbffff0cdcffff38dcffff42dcffffcadcffff58ddffff6addffff1cdeffff38deffff3adeffff1ee3ffff68fbffffb4350000aa4c0000de4c00003e4f0000
+      m_ExpandedIDs: 68fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -714,20 +714,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Textures
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Textures
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: E:\Holberton 2\holbertonschool-unity\0x06-unity-assets_ui
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: c0410000
-    m_LastClickedID: 16832
-    m_ExpandedIDs: 00000000a2410000a4410000b241000000ca9a3b
+    m_SelectedIDs: cc400000
+    m_LastClickedID: 16588
+    m_ExpandedIDs: 00000000b8400000ba40000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -755,7 +755,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a2410000a4410000
+    m_ExpandedIDs: 00000000b8400000ba400000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

@@ -8,15 +8,15 @@ public class CameraController : MonoBehaviour
     public Transform target, player;
     float mouseX, mouseY;
     public bool activeCamera = true;
-    public static bool isInverted = false;
-
+    public bool isInverted;
+    public static bool isInvertedGlobal = false;
 
     // Start is called before the first frame update
     void Start()
     {
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
-        
+        isInverted = isInvertedGlobal;
     }
 
     // Update is called once per frame
