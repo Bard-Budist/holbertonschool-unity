@@ -12,11 +12,7 @@ public class Timer : MonoBehaviour
     private bool startTimer = false;
 
 
-    void Start()
-    {
-        
-    }
-
+    public Text winText;
     // Update is called once per frame
     void Update()
     {
@@ -40,5 +36,17 @@ public class Timer : MonoBehaviour
         TimerText.fontSize = 60;
         TimerText.color = Color.green;
         startTimer = false;
+    }
+
+    public void PauseTimer()
+    {
+        startTimer = false;
+    }
+
+    public void Win()
+    {
+        TimerText.gameObject.SetActive(false);
+        startTimer = false;
+        winText.text = minutes + ":" + (segunds % 60 > 10 ? "" : "0") + (segunds % 60).ToString("f2");
     }
 }

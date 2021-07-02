@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F1FDC3E7-6686-BE6D-06FE-6FB4C851438B}</ProjectGuid>
+    <ProjectGuid>{D99EA84A-75FE-1111-FB53-77AE0B4FEB39}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -66,9 +66,13 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\LimbGrounded.cs" />
+    <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\OptionsMenu.cs" />
+    <Compile Include="Assets\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
     <Compile Include="Assets\Scripts\TimerTrigger.cs" />
+    <Compile Include="Assets\Scripts\WinMenu.cs" />
     <Compile Include="Assets\Scripts\WinTrigger.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.20f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -599,31 +603,34 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.20f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>E:/Holberton 2/holbertonschool-unity/0x05-unity-assets_models_textures/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>E:/Holberton 2/holbertonschool-unity/0x06-unity-assets_ui/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>E:/Holberton 2/holbertonschool-unity/0x05-unity-assets_models_textures/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>E:/Holberton 2/holbertonschool-unity/0x06-unity-assets_ui/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>E:/Holberton 2/holbertonschool-unity/0x05-unity-assets_models_textures/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>E:/Holberton 2/holbertonschool-unity/0x06-unity-assets_ui/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>E:/Holberton 2/holbertonschool-unity/0x05-unity-assets_models_textures/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>E:/Holberton 2/holbertonschool-unity/0x06-unity-assets_ui/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>E:/Holberton 2/holbertonschool-unity/0x05-unity-assets_models_textures/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>E:/Holberton 2/holbertonschool-unity/0x06-unity-assets_ui/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>E:/Holberton 2/holbertonschool-unity/0x05-unity-assets_models_textures/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>E:/Holberton 2/holbertonschool-unity/0x06-unity-assets_ui/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>E:/Holberton 2/holbertonschool-unity/0x05-unity-assets_models_textures/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>E:/Holberton 2/holbertonschool-unity/0x06-unity-assets_ui/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>E:/Holberton 2/holbertonschool-unity/0x06-unity-assets_ui/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>E:/Holberton 2/holbertonschool-unity/0x05-unity-assets_models_textures/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>E:/Holberton 2/holbertonschool-unity/0x06-unity-assets_ui/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>E:/Holberton 2/holbertonschool-unity/0x05-unity-assets_models_textures/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>E:/Holberton 2/holbertonschool-unity/0x06-unity-assets_ui/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>

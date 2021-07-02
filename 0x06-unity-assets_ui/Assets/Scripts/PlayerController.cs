@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
 
     public bool isGround;
     public bool isDead = false;
+    public bool canMove = true;
 
 
     public Transform groundCheck;
@@ -36,7 +37,7 @@ public class PlayerController : MonoBehaviour
     {
         isGround = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
         isDead = Physics.CheckSphere(groundCheck.position, groundDistance, deadMask);
-
+        
         Move();
 
         if (isDead)
@@ -50,9 +51,14 @@ public class PlayerController : MonoBehaviour
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
 
+       
         Vector3 move = transform.right * x + transform.forward * z;
+    
 
-        playerController.Move(move * speed * Time.deltaTime);
+        if (canMove)
+        {
+            playerController.Move(move * speed * Time.deltaTime);
+        }
 
         velocity.y += gravity * Time.deltaTime;
 
